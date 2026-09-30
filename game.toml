@@ -6,7 +6,9 @@ name = "Digimon World 2003"
 id = "SLES-03936"
 players = 1
 exe = "disc/SLES_039.36"
-disc = ""
+disc = "disc/Digimon World 2003 (Europe) (En,Fr,De,Es,It).cue"
+discs = ["disc/Digimon World 2003 (Europe) (En,Fr,De,Es,It).cue"]
+disc_serials = ["SLES-03936"]
 load_address = "0x80010000"
 entry_pc = "0x80010E90"
 text_size = "0x000E1000"
@@ -30,11 +32,13 @@ known_crc32 = [
 ]
 
 [recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
 
 [runtime]
+openbios = false
 window_title = "digimon-world-2003- Recompiled"
 memcard_dir = "saves"
 
