@@ -41,6 +41,7 @@ strict = true
 openbios = false
 window_title = "digimon-world-2003- Recompiled"
 memcard_dir = "saves"
+overlay_cache = true
 
 [video]
 renderer = "opengl"
