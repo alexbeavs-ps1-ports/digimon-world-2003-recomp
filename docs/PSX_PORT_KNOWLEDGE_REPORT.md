@@ -4,7 +4,7 @@
 - Retail identity: Europe PAL `SLES-03936`
 - Architecture lane: source-only owned-input setup host
 - Release target: Windows x64, Linux x64, macOS ARM64, and macOS x64; candidate version `0.3.5`
-- License boundary: portfolio files use GPL-3.0-only; dependencies keep their licenses
+- License boundary: portfolio files use PolyForm Noncommercial 1.0.0; dependencies keep their licenses
 
 ## Current state
 
