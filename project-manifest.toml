@@ -18,8 +18,8 @@ stack_base = "0x801FFFF0"
 
 [framework]
 repository = "https://github.com/Alexbeav/psxrecomp.git"
-commit = "7011e0f72401f73bcd473c74232893a9749797c9"
-tree = "ca53dc96fa1c7f51b32ec3d5abf4abcf2f7f8a42"
+commit = "031868cc0170d260f1cb81c7cfe7ab68e8bbb424"
+tree = "4c198e9eaf6a3f960f543d001805f29a5fde7dca"
 recomp_ui_commit = "14799da234db1436306636b64436233a3ec6885c"
 license = "PolyForm Noncommercial 1.0.0"
 
