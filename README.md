@@ -27,6 +27,16 @@ Scaffolded with the New Project Layout. See
 **BIOS:** SCPH-5552 (Europe) retail BIOS, 524288 bytes, SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`. Supply your own dump; releases do not use OpenBIOS.
 <!-- /release-standard:bios -->
 
+## Status
+
+Latest release: v0.3.8, built on psxrecomp pin I 0.1.23.
+
+- Packages for Windows x64, Linux x64, macOS Apple Silicon and macOS Intel passed the CI build and package checks.
+- Replay check: on Windows, a build on pin I 0.1.23 played 1 of 1 recorded route to the end without a crash. That check compares memory, not the picture, and is not a play test.
+- Not claimed: full-game completion, audio fidelity or multiplayer. Setup and gameplay reports from Linux, macOS and Steam Deck are welcome.
+
+Known issues for the current version are in its [release notes](https://github.com/alexbeavs-ps1-ports/digimon-world-2003-recomp/releases/tag/v0.3.8).
+
 <!-- retcomm-readme-launcher -->
 ## RetComM Launcher
 
@@ -128,14 +138,6 @@ findings registry that documents failures as carefully as successes. AI
 writes most of the code; the evidence discipline decides what survives.
 Bug reports welcome - expect them to be investigated the same way.
 
-tl;dr AI writes the code, but I always test it myself before pushing
-
-## v0.3.5 three-platform candidate
-
-The next release targets Windows x64, Linux x64, macOS Apple Silicon ARM64,
-and macOS Intel x64. These packages remain candidates until the exact archives
-pass the required native setup, startup, responsiveness, and clean-exit gates.
-
-## Development history
+tl;dr AI writes the code, but I always test it myself before pushing## Development history
 
 Older source and separate candidates are preserved as fixed tags. See [the archive and recovery instructions](docs/BRANCH_ARCHIVE.md).
